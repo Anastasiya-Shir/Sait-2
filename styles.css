@@ -138,12 +138,10 @@ header nav a:hover {
   align-items: center;
 }
 .project p {
-  padding-left: 10%;
-  width: 60;
+  width: 60%;
   text-align: left;
 }
 .project h3 {
-  text-align: right;
   width: 60%;
 }
 
@@ -233,15 +231,17 @@ header nav a:hover {
   width: 100%;
 }
 .number {
-  display: inline-block;
   font-weight: bold;
   font-weight: normal;
   font-size: 36px;
   line-height: 53px;
-
   color: #000000;
-  position: absolute;
-  top: 327.5%;
+  margin-left: 20px;
+  margin-bottom: 17px;
+}
+.foter-one-line img {
+  width: 30px;
+  height: 27px;
 }
 /*.inner-circle {
   right: 65px;
@@ -274,7 +274,6 @@ header nav a:hover {
   border-bottom: 1px solid #e0e0e0;
 }
 .our-works-items {
-  border: 1px solid red;
   width: 30%;
 }
 .our-works-items span {
@@ -351,34 +350,46 @@ header nav a:hover {
 }
 
 .video-bakgr {
-  background-size: 1920px 570px;
+  background: url(./img/video\ bg.png) no-repeat;
+  height: 570px;
+  padding-top: 70px;
+}
+.video-bakgr h2 {
+  padding-bottom: 30px;
 }
 .video h2 {
-  position: relative;
   font-size: 36px;
   line-height: 53px;
   text-align: center;
 
-  color: red;
+  color: white;
 }
 .video p {
-  position: relative;
   font-size: 16px;
   line-height: 25px;
   text-align: center;
 
-  color: red;
+  color: white;
+}
+
+.play p {
+  align-items: center;
 }
 .video-player {
   position: relative;
-  bottom: 350px;
-  left: 10%;
+  bottom: 300px;
+  left: 20%;
 }
-
 .play {
   position: relative;
-  bottom: 223px;
-  left: 30%;
+  bottom: 250px;
+  left: 25%;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 200px;
+  width: 300px;
+  height: 100px;
+  padding: 20px 30px;
 }
 .subscribe {
   text-align: center;
@@ -499,6 +510,9 @@ header nav a:hover {
   border: 1px solid #e0e0e0;
 }
 .footer .container > p {
+  display: flex;
+  flex-direction: column;
+
   font-weight: normal;
   font-size: 14px;
   line-height: 22px;
